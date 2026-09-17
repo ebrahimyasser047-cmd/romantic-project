@@ -47,7 +47,7 @@ function unlock() {
       playMusic();
     }, 800);
   } else {
-    passwordMessage.textContent = "❌ كلمة السر غلط... جرب تاني ❤️";
+    passwordMessage.textContent = "❌ كلمة السر غلط... جربي تاني ❤️";
 
     passwordInput.value = "";
 
@@ -236,7 +236,7 @@ revealElements.forEach(function (element) {
 ========================= */
 
 // ❤️ غير التاريخ ده بتاريخ بداية علاقتكم
-const startDate = new Date("2026-07-01T00:00:00");
+const startDate = new Date("2025-08-26T00:00:00");
 
 function updateCounter() {
   const now = new Date();
