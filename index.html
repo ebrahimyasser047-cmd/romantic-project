@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Story ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Floating Hearts -->
+    <div class="hearts-container"></div>
+
+    <!-- =========================
+         PASSWORD SCREEN
+    ========================== -->
+
+    <section class="password-screen" id="passwordScreen">
+
+        <div class="password-box">
+
+            <div class="top-heart">❤️</div>
+
+            <h1>my everything ❤️</h1>
+
+            <p class="small-text">
+                Some things are only meant for you...
+            </p>
+
+            <label for="password">
+                ENTER THE SECRET WORD 🔑
+            </label>
+
+            <input
+                type="password"
+                id="password"
+                placeholder="••••••"
+            >
+
+            <button id="unlockBtn">
+                🔓 unlock 🔓
+            </button>
+
+            <p id="passwordMessage"></p>
+
+            <div class="line"></div>
+
+            <p class="second-half">
+                Your second half ❤️
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         MAIN WEBSITE
+    ========================== -->
+
+    <main id="mainContent" class="hidden">
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <div class="balloon balloon-one">❤️</div>
+            <div class="balloon balloon-two">❤️</div>
+
+            <p class="mini-title">
+                ✨ قصتنا بدأت هنا ✨
+            </p>
+
+            <h1>
+                our story
+                <span>❤️</span>
+            </h1>
+
+            <p>
+                كل لحظة معاك تستاهل تتكتب
+            </p>
+
+            <div class="scroll-arrow">
+                ↓
+            </div>
+
+        </section>
+
+
+        <!-- INTRO -->
+
+        <section class="intro reveal">
+
+            <p class="small-title">
+                my soul 🌚
+            </p>
+
+            <h2>
+                هدية صغيرة ليكي
+                <br>
+                عشان أقولك
+                <br>
+                قد إيه انا بحبك ❤️
+            </h2>
+
+            <div class="message-card">
+
+                <p>
+                    كل اللي هشوفه بيبقى أحلى
+                    لما تكوني معايا ❤️🥺
+                </p>
+
+            </div>
+
+            <button class="enter-btn" onclick="scrollToStory()">
+                ENTER
+            </button>
+
+        </section>
+
+
+        <!-- =========================
+             STORY
+        ========================== -->
+
+        <section class="story">
+
+            <h2 class="section-title reveal">
+                Our Memories ❤️
+            </h2>
+
+
+            <!-- MEMORY 1 -->
+
+            <article class="memory-card reveal">
+
+                <img src="../images/IMG-20260916-WA0020.jpg" alt="Our memory">
+
+                <!-- <img src="../images/IMG-20260916-WA0014.jpg" alt="Our memory"> -->
+
+                <div class="memory-content">
+
+                    <span class="date">
+                        06 / 09 / 2026
+                    </span>
+
+                    <h3>
+                        أول لحظة ❤️
+                    </h3>
+
+                    <p>
+                        من أول يوم شوفتك فيه،
+                        وأنا عرفت إن في حاجة مختلفة.
+                        وجودك بقى جزء من يومي.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- MEMORY 2 -->
+
+            <article class="memory-card reveal">
+
+                <img src="../images/IMG-20260916-WA0006.jpg" alt="Our memory">
+
+                <div class="memory-content">
+
+                    <span class="date">
+                        14 / 06 / 2026
+                    </span>
+
+                    <h3>
+                        اليوم اللي قلتلك فيه بحبك ❤️
+                    </h3>
+
+                    <p>
+                        كانت كلمات بسيطة،
+                        بس وراها مشاعر كتير.
+                        ومن اليوم ده كل حاجة بقت مختلفة.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- MEMORY 3 -->
+
+            <article class="memory-card reveal">
+
+                <img src="../images/IMG-20260916-WA0019.jpg" alt="Our memory">
+
+                <div class="memory-content">
+
+                    <span class="date">
+                        14 / 06 / 2026
+                    </span>
+
+                    <h3>
+                        أجمل وقت 🥺❤️
+                    </h3>
+
+                    <p>
+                        تفاصيل صغيرة،
+                        ضحكة،
+                        كلام،
+                        ووقت قضيناه سوا.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- MEMORY 4 -->
+
+            <article class="memory-card reveal">
+
+                <img src="../images/IMG-20260916-WA0014.jpg" alt="Our memory">
+
+                <!-- <img src="../images/IMG-20260916-WA0020.jpg" alt="Our memory"> -->
+
+                <div class="memory-content">
+
+                    <span class="date">
+                        15 / 08 / 2026
+                    </span>
+
+                    <h3>
+                        ولسه الحكاية مكملة ❤️
+                    </h3>
+
+                    <p>
+                        وأجمل حاجة إن دي مش النهاية...
+                        دي مجرد بداية لحاجات كتير جاية.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- =========================
+             LOVE COUNTER
+        ========================== -->
+
+        <section class="counter-section reveal">
+
+            <h2>
+                بقالنا ❤️
+            </h2>
+
+            <div class="counter">
+
+                <div>
+                    <strong id="days">0</strong>
+                    <span>يوم</span>
+                </div>
+
+                <div>
+                    <strong id="hours">0</strong>
+                    <span>ساعة</span>
+                </div>
+
+                <div>
+                    <strong id="minutes">0</strong>
+                    <span>دقيقة</span>
+                </div>
+
+                <div>
+                    <strong id="seconds">0</strong>
+                    <span>ثانية</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FINAL MESSAGE
+        ========================== -->
+
+        <section class="final-section reveal">
+
+            <div class="final-heart">
+                ❤️
+            </div>
+
+            <h2>
+                To My Favorite Person
+            </h2>
+
+            <p>
+                يمكن مش بعرف أقول كل اللي جوايا
+                بالكلام،
+                بس أتمنى الصفحة دي توصلك
+                جزء صغير من اللي حاسه.
+            </p>
+
+            <p>
+                وجودك في حياتي حاجة
+                أنا ممتن ليها جدًا ❤️
+            </p>
+
+            <h3>
+                I Love You ❤️
+            </h3>
+
+            <p class="signature">
+                — من شخص بيحبك جدًا
+            </p>
+
+        </section>
+
+
+        <!-- =========================
+             MUSIC PLAYER
+        ========================== -->
+
+        <div class="music-player">
+
+            <button id="likeBtn" class="player-btn">
+                ❤️
+            </button>
+
+            <button id="prevBtn" class="player-btn">
+                ⏮
+            </button>
+
+            <button id="playBtn" class="play-btn">
+                ▶
+            </button>
+
+            <button id="nextBtn" class="player-btn">
+                ⏭
+            </button>
+
+            <div class="song-info">
+
+                <div>
+                    ✨❤️ أغنيتنا
+                </div>
+
+                <div class="progress-container">
+
+                    <span id="currentTime">
+                        0:00
+                    </span>
+
+                    <input
+                        type="range"
+                        id="progress"
+                        value="0"
+                        min="0"
+                        max="100"
+                    >
+
+                    <span id="duration">
+                        0:00
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- AUDIO -->
+
+        <audio id="audio" src="../images/sapientdream - Pastlives (lyrics)(MP3_320K).mp3"></audio>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
